@@ -1,0 +1,104 @@
+.filter-container {
+  align-items: center;
+  text-align: center;
+  height: auto;
+  width: 100%;
+  font-size: 25px;
+
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+
+.options label {
+  margin-right: 10px;
+}
+
+.selector {
+  font-size: 16px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  margin-right: 90px;
+}
+
+.apply-button {
+  font-weight: 900;
+  background-color: transparent;
+  border: 2px solid rgb(19, 19, 19);
+  min-width: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  margin-bottom: -50px;
+  margin-top: 30px;
+}
+
+.apply-button:hover {
+  background-color: rgb(19, 19, 19);
+  color: white;
+  cursor: pointer;
+}
+
+.addbutton,
+.deletebutton {
+  font-weight: 900;
+  background-color: transparent;
+  border: 2px solid rgb(19, 19, 19);
+  min-width: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  margin-bottom: -50px;
+  margin-top: 30px;
+}
+
+.addbutton:hover,
+.deletebutton:hover {
+  background-color: rgb(19, 19, 19);
+  color: white;
+  cursor: pointer;
+}
+
+.productName,
+.productImage,
+.price,
+.color {
+  font-weight: 900;
+}
+
+.add-form {
+  font-weight: 500;
+}
+
+.submit-button {
+  width: 30px;
+  height: auto;
+  font-weight: 900;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid rgb(19, 19, 19);
+  min-width: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  margin-bottom: -50px;
+  margin-top: 30px;
+}
+
+.submit-button:hover {
+  background-color: rgb(19, 19, 19);
+  color: white;
+  cursor: pointer;
+}
